@@ -10,7 +10,7 @@ source:
   sha256: 00429eca296f00d9b93939d2561538bad601602ad02fd01ba9ad366268773751
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('simdutf', max_pin='x') }}
 
