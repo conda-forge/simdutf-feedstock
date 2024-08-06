@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/simdutf-feedsto
 
 Home: https://github.com/simdutf/simdutf
 
-Package license: MIT
+Package license: MIT OR Apache-2.0
 
 Summary: Unicode at GB/s.
 
