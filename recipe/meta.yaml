@@ -17,6 +17,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
     - cmake
     - ninja
@@ -34,9 +35,10 @@ about:
   home: https://github.com/simdutf/simdutf
   summary: 'Unicode at GB/s.'
   description: 'Unicode routines (UTF8, UTF16, UTF32): billions of characters per second using SSE2, AVX2, NEON, AVX-512.'
-  license: MIT
-  license_family: MIT
-  license_file: LICENSE-MIT
+  license: MIT OR Apache-2.0
+  license_file:
+    - LICENSE-MIT
+    - LICENSE-APACHE
   doc_url: https://simdutf.github.io/simdutf/
   dev_url: https://github.com/simdutf/simdutf
 
