@@ -1,5 +1,5 @@
 {% set name = "simdutf" %}
-{% set version = "9.4.0" %}
+{% set version = "9.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/simdutf/simdutf/archive/refs/tags/v{{ version }}.zip
-  sha256: 5de0cfa64c177c63dd1b4510ce28d6da0256e24a5fe8a924c161ded42cc127c1
+  sha256: 964ac9ca8072ae59619bce3a6396abb8983dadce05dadffb54626ffe09b03df1
 
 build:
   number: 0
